@@ -1,0 +1,27 @@
+directory: $BEETS_LIBRARY_DIR
+library: $BEETS_LIBRARY_FILE
+
+import:
+    move: yes
+    write: yes
+    link: no
+    hardlink: no
+    resume: no
+    copy: no
+
+replace:
+    '[\\/]': _
+    ^\.: _
+    '[\x00-\x1f]': _
+    '[<>:"\?\*\|]': _
+    \.$: _
+    \s+$: ''
+    ^\s+: ''
+    ^-: _
+
+plugins: fetchart embedart
+
+match:
+    strong_rec_thresh: 0.1
+    medium_rec_thresh: 0.1
+    rec_gap_thresh: 0.1

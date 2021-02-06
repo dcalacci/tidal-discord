@@ -1,0 +1,28 @@
+{
+  "addAlbumIDBeforeFolder": false,
+  "addExplicitTag": true,
+  "addHyphen": true,
+  "addYear": false,
+  "albumFolderFormat": "{ArtistName}/{Flag} {AlbumTitle} [{AlbumID}] [{AlbumYear}]",
+  "artistBeforeTitle": false,
+  "audioQuality": "Master",
+  "checkExist": true,
+  "downloadPath": "/downloads",
+  "getAudioQuality": null,
+  "getDefaultAlbumFolderFormat": null,
+  "getDefaultTrackFileFormat": null,
+  "getVideoQuality": null,
+  "includeEP": false,
+  "language": "0",
+  "multiThreadDownload": true,
+  "onlyM4a": true,
+  "read": null,
+  "save": null,
+  "saveCovers": true,
+  "showProgress": true,
+  "trackFileFormat": "{TrackNumber} - {ArtistName} - {TrackTitle}{ExplicitFlag}",
+  "usePlaylistFolder": true,
+  "useTrackNumber": true,
+  "videoQuality": "P360"
+}
+
